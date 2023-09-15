@@ -1,0 +1,5 @@
+Phase 1: Building static websites using HTML, CSS & Bootstrap
+In this phase, you'll learn about the underlying structure of the web - HTML. 
+You'll also learn how to apply styling to a website through CSS. 
+To help you build websites faster and easier, you will learn the Bootstrap framework. 
+Along the way, you'll also learn about VS Code editor and Chrome's Developer Tools.
