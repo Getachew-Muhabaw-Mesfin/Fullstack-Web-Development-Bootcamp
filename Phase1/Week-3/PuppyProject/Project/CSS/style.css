@@ -1,27 +1,65 @@
-
+* {
+  margin: 0;
+}
 header,
 footer {
   text-align: center;
   background: rgb(4, 4, 116);
   color: white;
   font-weight: bold;
-  padding: 5px;
+  padding: 15px 0;
+  
 }
-.banner-image img{
-width: 100%;
-margin-top: 0;
+.banner-image img {
+  width: 100%;
+  margin-top: 0;
+  margin-bottom: 53px;
 }
 .images {
-    display: flex;
-    align-items: center;
-   justify-content: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
-section h1{
-    text-align: center;
-    font-weight: bold;
-    padding: 5px 0; /*Top - right-bootom -Left*/
+section {
+  margin: 34px 0;
 }
-.morePuppies{
-    display: flex;
-    justify-content: center;
+
+.middle-text {
+  background: rgb(235, 79, 144);
+  height: 310px;
+  width: 310px;
+  margin: 0 12px;
+  border-radius: 15px;
+}
+
+section h1 {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px 0; /*Top - right-bootom -Left*/
+}
+.morePuppies {
+  display: flex;
+  justify-content: center;
+  padding-left: 1opx;
+  padding-right: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 53px;
+}
+.moreImg1 {
+  margin: 0 41px;
+}
+p{
+  padding-top: 50%;
+  text-align: center;
+  font-size: 24px;
+}
+img{
+  border-radius: 20px;
+}
+.banner-image img{
+  border-radius: 0;
 }
