@@ -3,13 +3,16 @@
 }
 header {
   text-align: center;
-  background: rgb(4, 4, 116);
+  background:  rgb(1, 51, 70);
   color: white;
   font-weight: bold;
+  margin-left: 20%;
+  width: 1201px;
   padding: 15px 0;
 }
 .banner-image img {
-  width: 100%;
+  margin-left: 20%;
+  margin-right: 0;
   margin-top: 0;
   margin-bottom: 53px;
 }
@@ -64,11 +67,20 @@ img {
 }
 .myName {
   text-align: center;
-  background: rgb(5, 5, 85);
+  background: rgb(1, 51, 70);
   color: white;
   font-weight: bold;
   padding: 60px 0;
   margin-top: 60px;
+  margin-left: 20%;
+  width: 1201px;
+  /*  text-align: center;
+  background: rgb(4, 4, 116);
+  color: white;
+  font-weight: bold;
+  margin-left: 20%;
+  width: 1201px;
+  padding: 15px 0; */
 }
 
 .first-img:hover {
@@ -82,22 +94,24 @@ img {
 }
 /* Loading Spinner */
 /* ENDLESS ROTATE */
-.rotate{
-  animation: rotate 1.5s linear infinite; 
+.rotate {
+  animation: rotate 1.5s linear infinite;
 }
-@keyframes rotate{
-  to{ transform: rotate(360deg); }
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
 }
-
 
 /* SPINNER JUST FOR DEMO */
-.spinner{
-  display:inline-block; width: 50px; height: 50px;
+.spinner {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
   box-shadow: inset -2px 0 0 2px #0bf;
   margin-left: 30%;
 }
-
 
 /* Rotation */
 @-webkit-keyframes rotating /* Safari and Chrome */ {
