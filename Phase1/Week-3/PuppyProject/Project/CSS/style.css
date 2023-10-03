@@ -3,24 +3,24 @@
 }
 header {
   text-align: center;
-  background:  rgb(1, 51, 70);
+  background: rgb(1, 51, 70);
   color: white;
   font-weight: bold;
   margin-left: 20%;
   width: 1201px;
   padding: 15px 0;
 }
-.header-title{
-    animation-duration: 10s;
-    animation-name: title;
+.header-title {
+  animation-duration: 10s;
+  animation-name: title;
 }
 @keyframes title {
-    from{
-        margin-left: 100%;
-    }
-    to{
-        margin-left: 0%;
-    }
+  from {
+    margin-left: 100%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }
 .banner-image img {
   margin-left: 20%;
@@ -86,7 +86,6 @@ img {
   margin-top: 60px;
   margin-left: 20%;
   width: 1201px;
- 
 }
 
 .first-img:hover {
@@ -109,6 +108,34 @@ img {
   }
 }
 
+/* Responsiveness of the page */
+@media (max-width: 720px) {
+  header,
+  .banner-image img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .morePuppies {
+    display: block;
+  }
+  img{
+    padding-left: 20%;
+  }
+  .images {
+    display: block;
+    justify-content: center;
+  }
+  footer  {
+    width: 100%;
+  }
+  .myName{
+    width: 100%;
+    padding:45px 0;
+    margin: 0;
+    text-wrap: wrap;
+  }
+}
 /* SPINNER JUST FOR DEMO */
 .spinner {
   display: inline-block;
