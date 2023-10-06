@@ -14,11 +14,14 @@ body {
 .header-wrapper {
 	background: black; 
 	color: #fff;
-	font-weight: 200;
-	font-size: 0.75em;	
+	font-weight: 400;
+	font-size: 12px;
+	letter-spacing: -1.2px;
+	
 }
 .header-wrapper ul {
 	display: flex;
+	color: transparent;
   -webkit-box-pack: justify;
   justify-content: space-between;
 }
@@ -44,7 +47,7 @@ body {
 	opacity: 1;
 }	
 .logo-link, .search-link, .cart-link {
-	width: 18px;	
+	width: 16px;	
 	display: block;
 }
 .header-wrapper .header-links-wrapper ul  li.logo-link {
