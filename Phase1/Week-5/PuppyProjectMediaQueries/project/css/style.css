@@ -3,6 +3,32 @@
     padding: 0;
 }
 img{
-    width: 100%;
     max-width: 100%;
+}
+.page-wrapper{
+    margin: 0 auto;
+    padding: 0 5%;
+}
+/* Header */
+header{
+    background: #085070;
+    padding: 30px;
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.banner-img img{
+    width: 100%;
+}
+.inner-conatainer img{
+width: 100%;
+}
+
+/* Media Query */
+
+@media (min-width: 768px) {
+   /* CSS stuff */
+   body{
+    background: black;
+   }
 }
